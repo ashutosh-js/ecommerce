@@ -1,0 +1,118 @@
+/* App.css */
+
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-actions {
+    text-align: right;
+  }
+  
+  .site-layout-content {
+    padding: 24px;
+    min-height: 280px;
+  }
+  .__items{
+    margin-right: 18px;
+    padding: 18px;
+  }
+.__Electronics{
+  display: flex;
+
+  justify-content:space-between;
+  
+}
+.__Electronic_text{
+  margin: 20px 0 10px 15px;
+  font-weight: bold;
+  font-size: large;
+}
+
+
+.container_row::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+  font-size: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  z-index: 2;
+  color: black;
+  width: 30px;
+  height: 28px;
+  border: 1px solid white;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover,
+.ant-carousel .slick-prev:focus,
+.ant-carousel .slick-next:focus {
+  color: unset;
+}
+
+/* Login.css */
+
+.login-container {
+  background-color: #f0f2f5;
+}
+
+.login-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* padding: 24px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px; /* Set a minimum height for the login card */
+}
+
+.login-form {
+  margin-top: 16px;
+}
+
+.login-signIn-button {
+  background-color: #fb641b;
+  border: 1px solid #fb641b;
+  font-weight: bold;
+}
+
+.login-register-button {
+  margin-top: 16px;
+  color: #2874f0;
+}
+
+.login-logo {
+  width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+    min-height: auto; /* Remove the minimum height on smaller screens */
+  }
+}
+/* Inside Login.css */
+
+.button-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-signIn-button {
+  background-color: #fb641b;
+  border: 1px solid #fb641b;
+  font-weight: bold;
+  margin-bottom: 8px; /* Add margin between the buttons */
+}
+
+
